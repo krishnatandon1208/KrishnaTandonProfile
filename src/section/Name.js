@@ -9,11 +9,12 @@ const useStyles = makeStyles({
 		height: '100vh'
 	},
 	text: {
-		fontSize: '100px',
+		fontSize: '80px',
 		color: '#FFFFFF',
 		margin: 0,
 		display: 'flex',
-		alignSelf: 'center'
+		alignSelf: 'center',
+		padding: '0 30px'
 	}
 });
 
@@ -22,7 +23,9 @@ export default function Name() {
 
 	return (
 		<div className={classes.nameblock}>
-			<h1 className={classes.text}>KRISHNA TANDON</h1>
+			<h1 className={classes.text} id={'nameText'}>
+				KRISHNA TANDON
+			</h1>
 		</div>
 	);
 }

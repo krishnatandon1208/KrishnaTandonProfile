@@ -30,9 +30,11 @@ export default function About() {
 			<Container>
 				<Grid container>
 					<Grid item xs={6} className={classes.abouttext}>
-						<Typography variant={'h4'}>About</Typography>
+						<Typography variant={'h4'} align="center">
+							About
+						</Typography>
 					</Grid>
-					<Grid item xs={6}>
+					<Grid item xs={false} lgUp={6}>
 						<Box display="flex" justifyContent="center">
 							<img src={KrishnaTandon} className={classes.ktImg} alt="Krishna Tandon" />
 						</Box>

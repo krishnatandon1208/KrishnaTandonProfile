@@ -58,13 +58,17 @@ export default function Skills() {
 			<Container>
 				<Grid container>
 					<Grid item xs={12} className={classes.skilltext}>
-						<Typography variant={'h4'}>Skills</Typography>
+						<Typography variant={'h4'} align="center">
+							Skills
+						</Typography>
 					</Grid>
 					<Grid className={classes.skillblock}>
 						{skillsList.map((skill) => (
 							<Card className={classes.skillsCard} key={skill}>
 								<CardContent className={classes.skillsCardContent}>
-									<Typography variant="h5">{skill}</Typography>
+									<Typography variant={'h5'} align="center">
+										{skill}
+									</Typography>
 								</CardContent>
 							</Card>
 						))}

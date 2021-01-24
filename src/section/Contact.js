@@ -23,7 +23,7 @@ const useStyles = makeStyles({
 	contactIcon: {
 		fontSize: '50px',
 		color: `${blue}`,
-		margin: '40px 60px 0 0'
+		margin: '40px 30px 0'
 	}
 });
 
@@ -35,9 +35,11 @@ export default function Skills() {
 			<Container>
 				<Grid container>
 					<Grid item xs={12} className={classes.contacttext}>
-						<Typography variant={'h4'}>Contacts</Typography>
+						<Typography variant={'h4'} align="center">
+							Contacts
+						</Typography>
 					</Grid>
-					<Grid>
+					<Grid item xs={12} style={{ display: 'flex', justifyContent: 'center' }}>
 						<a href="https://www.linkedin.com/in/krishnatandon1208/" target="_blank" rel="noreferrer">
 							<LinkedInIcon className={classes.contactIcon} />
 						</a>
