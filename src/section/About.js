@@ -46,7 +46,7 @@ export default function About() {
 							ABOUT
 						</Typography>
 					</Grid>
-					<Grid item xs={6} className={classes.aboutdetails}>
+					<Grid item xs={12} md={6} className={classes.aboutdetails}>
 						<div className={classes.description}>
 							<Typography variant={'h5'} style={{ margin: '10px 0' }}>
 								Hi, I am Krishna, web developer with 5+ years of experience. Currently, working as a UI
