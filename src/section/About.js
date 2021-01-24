@@ -58,11 +58,11 @@ export default function About() {
 					<Grid item xs={6} className={classes.aboutdetails}>
 						<div className={classes.description}>
 							<Typography variant={'h5'} style={{ margin: '10px 0' }}>
-								Hi, I am Krishna. Web developer with 5+ years of experience. Currently, I am working as
-								a UI Technical Lead at TCS, India.
+								Hi, I am Krishna, web developer with 5+ years of experience. Currently, working as a UI
+								Technical Lead at TCS, India.
 							</Typography>
 							<Typography variant={'h5'}>
-								I also design wireframes, write clean and well documented frontend code.
+								I design wireframes, write clean and well documented frontend code.
 							</Typography>
 						</div>
 					</Grid>
