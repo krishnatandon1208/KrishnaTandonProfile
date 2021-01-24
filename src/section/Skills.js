@@ -59,7 +59,7 @@ export default function Skills() {
 				<Grid container>
 					<Grid item xs={12} className={classes.skilltext}>
 						<Typography variant={'h4'} align="center">
-							Skills
+							SKILLS
 						</Typography>
 					</Grid>
 					<Grid className={classes.skillblock}>

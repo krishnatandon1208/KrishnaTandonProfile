@@ -13,20 +13,11 @@ const useStyles = makeStyles({
 	abouttext: siteHeadingTitle,
 	aboutdetails: {
 		margin: '70px auto 0',
-		display: 'flex',
-		justifyContent: 'center',
-		color: `${blue}`,
-		'& > Typography': {
-			fontWeight: 'bold !important'
-		}
+		color: `${blue}`
 	},
 	description: {
-		display: 'flex',
-		justifyContent: 'center',
-		flexDirection: 'column',
 		background: '#e1f5fe1A',
-		padding: '40px',
-		transform: 'skewY(-10deg)',
+		padding: '40px 20px',
 		boxShadow: '-40px 20px 20px #e1f5fe4d'
 	},
 	ktImg: {
@@ -52,7 +43,7 @@ export default function About() {
 				<Grid container>
 					<Grid item xs={12} className={classes.abouttext}>
 						<Typography variant={'h4'} align="center">
-							About
+							ABOUT
 						</Typography>
 					</Grid>
 					<Grid item xs={6} className={classes.aboutdetails}>

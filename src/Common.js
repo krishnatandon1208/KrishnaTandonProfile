@@ -1,8 +1,8 @@
 import { blue } from './Colors';
-import blueblob from './images/blueblob.svg';
+//import blueblob from './images/blueblob.svg';
 
 export const siteHeadingTitle = {
-	backgroundImage: `url(${blueblob})`,
+	//backgroundImage: `url(${blueblob})`,
 	backgroundSize: '100px',
 	backgroundRepeat: 'no-repeat',
 	backgroundPosition: '0px 0px',

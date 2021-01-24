@@ -36,7 +36,7 @@ export default function Skills() {
 				<Grid container>
 					<Grid item xs={12} className={classes.contacttext}>
 						<Typography variant={'h4'} align="center">
-							Contacts
+							CONTACTS
 						</Typography>
 					</Grid>
 					<Grid item xs={12} style={{ display: 'flex', justifyContent: 'center' }}>
