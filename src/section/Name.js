@@ -14,7 +14,8 @@ const useStyles = makeStyles({
 		margin: 0,
 		display: 'flex',
 		alignSelf: 'center',
-		padding: '0 30px'
+		padding: '0 30px',
+		textAlign: 'center'
 	}
 });
 
