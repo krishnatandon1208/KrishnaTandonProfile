@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_2">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_2" data-name="Web 1920 – 2" clip-path="url(#clip-Web_1920_2)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <path id="Path_1" data-name="Path 1" d="M-4.455,2.27,1646,0V1675H0Z" transform="matrix(0.951, 0.309, -0.309, 0.951, -114.654, -589.573)" fill="#000051"/>
+    <path id="Path_2" data-name="Path 2" d="M-.891.488,1646,0V1799.421H0Z" transform="matrix(0.883, 0.469, -0.469, 0.883, 1440.092, -405.615)" fill="#ffeb3b"/>
+    <text id="Krishna_Tandon" data-name="Krishna Tandon" transform="translate(247 586)" fill="#ffeb3b" font-size="200" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Krishna</tspan><tspan y="0" fill="#fff"> </tspan><tspan y="0" fill="#000051">Tandon</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+html,
+body {
+	font-family: 'Roboto';
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.site-cover {
+	background-image: url("../src/images/sitebackground.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
