@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid, Typography, Card, CardContent } from '@material-ui/core';
 
-import { lightblue, blue } from '../Colors';
+import { blue } from '../Colors';
 import { siteHeadingTitle } from '../Common';
 
 const useStyles = makeStyles({
