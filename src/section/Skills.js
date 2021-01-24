@@ -2,12 +2,12 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid, Typography, Card, CardContent } from '@material-ui/core';
 
-import { yellow, blue } from '../Colors';
+import { lightblue, blue } from '../Colors';
 import { siteHeadingTitle } from '../Common';
 
 const useStyles = makeStyles({
 	skillsSection: {
-		backgroundColor: '#F6F6F633',
+		background: 'linear-gradient(to bottom, #FFFFFF, #e1f5fe1A, #FFFFFF)',
 		padding: '100px 0'
 	},
 	skilltext: siteHeadingTitle,
@@ -24,14 +24,14 @@ const useStyles = makeStyles({
 		textAlign: 'center',
 		transition: '0.5s',
 		borderRadius: 0,
-		//border: `5px solid transparent`,
-		//boxShadow: `10px 10px 0 0 ${yellow}, -10px -10px 0 0 ${blue}`,
+		border: `5px solid transparent`,
+		//boxShadow: `10px 10px 0 0 ${lightblue}, -10px -10px 0 0 ${blue}`,
 		backgroundColor: `#FFFFFF`,
 		color: `${blue}`,
-		boxShadow: '0px 5px 5px 0 #CCCCCC',
+		boxShadow: '0px 0px 10px 0 #e1f5fe',
 		'&:hover': {
 			//border: `5px solid ${blue}`,
-			boxShadow: `-10px -10px 0 0 ${yellow}, 10px 10px 0 0 ${blue}`
+			boxShadow: `-10px -10px 0 0 ${blue}, 10px 10px 0 0 ${blue}`
 			//boxShadow: '0px 0px 1px 0 #CCCCCC44'
 		}
 	}

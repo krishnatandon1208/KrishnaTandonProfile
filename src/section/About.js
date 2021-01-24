@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Grid, Box, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-import { yellow, blue } from '../Colors';
+import { lightblue, blue } from '../Colors';
 import KrishnaTandon from '../images/KT2.png';
 import { siteHeadingTitle } from '../Common';
 
@@ -17,16 +17,25 @@ const useStyles = makeStyles({
 		justifyContent: 'center',
 		color: `${blue}`,
 		'& > Typography': {
-			fontWeight: 'bold'
+			fontWeight: 'bold !important'
 		}
+	},
+	description: {
+		display: 'flex',
+		justifyContent: 'center',
+		flexDirection: 'column',
+		background: '#e1f5fe1A',
+		padding: '40px',
+		transform: 'skewY(-10deg)',
+		boxShadow: '-40px 20px 20px #e1f5fe4d'
 	},
 	ktImg: {
 		width: '350px',
 		height: '350px',
-		boxShadow: `20px 20px 0 0 ${yellow}, -20px -20px 0 0 ${blue}`,
-		transition: '0.5s',
+		boxShadow: `20px 20px 0 0 ${blue}, -20px -20px 0 0 ${lightblue}`,
+		transition: '1s',
 		'&:hover': {
-			boxShadow: `-20px -20px 0 0 ${yellow}, 20px 20px 0 0 ${blue}`
+			boxShadow: `10px 10px 0 0 ${blue}, -10px -10px 0 0 ${lightblue}`
 		},
 		margin: '70px auto 0',
 		display: 'flex',
@@ -47,10 +56,15 @@ export default function About() {
 						</Typography>
 					</Grid>
 					<Grid item xs={6} className={classes.aboutdetails}>
-						<Typography variant={'h5'} align="center" fontWeight="fontWeightBold">
-							Hi, I am Krishna. Web developer with 5+ years of experience. Currently, I am UI Technical
-							Lead at TCS, India.
-						</Typography>
+						<div className={classes.description}>
+							<Typography variant={'h5'} style={{ margin: '10px 0' }}>
+								Hi, I am Krishna. Web developer with 5+ years of experience. Currently, I am working as
+								a UI Technical Lead at TCS, India.
+							</Typography>
+							<Typography variant={'h5'}>
+								I also design wireframes, write clean and well documented frontend code.
+							</Typography>
+						</div>
 					</Grid>
 					<Box component={Grid} md={6} display={{ xs: 'none', md: 'block' }}>
 						<img src={KrishnaTandon} className={classes.ktImg} alt="Krishna Tandon" />

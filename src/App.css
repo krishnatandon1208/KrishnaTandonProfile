@@ -7,6 +7,8 @@ body {
 
 .site-cover {
 	background-image: url("../src/images/sitebackground.png");
+	/* background: linear-gradient(to bottom, #000051, #e1f5fe1A); */
+	/* background: #000051; */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
