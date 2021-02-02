@@ -25,6 +25,3 @@ function App() {
 }
 
 export default App;
-
-//#000051
-//#ffeb3b

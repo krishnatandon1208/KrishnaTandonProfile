@@ -24,9 +24,10 @@ const useStyles = makeStyles({
 		textAlign: 'center',
 		transition: '0.5s',
 		borderRadius: 0,
-		border: `5px solid transparent`,
+		//border: `5px solid transparent`,
 		//boxShadow: `10px 10px 0 0 ${lightblue}, -10px -10px 0 0 ${blue}`,
 		backgroundColor: `#FFFFFF`,
+		border: '1px solid #e1f5fe',
 		color: `${blue}`,
 		boxShadow: '0px 0px 10px 0 #e1f5fe',
 		'&:hover': {
