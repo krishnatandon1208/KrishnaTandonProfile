@@ -57,7 +57,7 @@ export default function About() {
 							</Typography>
 						</div>
 					</Grid>
-					<Box component={Grid} md={6} display={{ xs: 'none', md: 'block' }}>
+					<Box item component={Grid} md={6} display={{ xs: 'none', md: 'block' }}>
 						<img src={KrishnaTandon} className={classes.ktImg} alt="Krishna Tandon" />
 					</Box>
 				</Grid>

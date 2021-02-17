@@ -6,7 +6,7 @@ body {
 }
 
 .site-cover {
-	background-image: url("../src/images/sitebackground.png");
+	background-image: url("../src/images/sitebackground.jpg");
 	/* background: linear-gradient(to bottom, #000051, #e1f5fe1A); */
 	/* background: #000051; */
 	background-size: cover;
